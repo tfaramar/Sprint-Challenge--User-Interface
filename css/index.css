@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -71,6 +71,29 @@ p {
     margin: 0 auto;
 }
 
+.top-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin: 20px 0px 10px 0px;
+}
+
+.link {
+	color: black;
+	text-decoration: none;
+	margin-right: 40px;
+}
+
+.link:hover {
+	color: darkorchid;
+}
+
+.hero-image {
+	width: 100%;
+	padding: 30px 0px 30px 0px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +105,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -104,12 +127,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.color1 {
+	background-color: teal;
+}
+
+.color2 {
+	background-color: gold;
+}
+
+.color3 {
+	background-color: cadetblue;
+}
+
+.color4 {
+	background-color: coral;
+}
+
+.color5 {
+	background-color: crimson;
+}
+
+.color6 {
+	background-color: forestgreen;
+}
+
+.color7 {
+	background-color: darkorchid;
+}
+
+.color8 {
+	background-color: hotpink;
+}
+
+.color9 {
+	background-color: indigo;
+}
+
+.color10 {
+	background-color: dodgerblue;
 }
 
 .bottom-content {
