@@ -48,7 +48,7 @@ From the innermost to the outermost: content, padding, border, and margin.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-All align properties work on the cross-axis, while justify properties work on the main-axis.
+Align properties work on the cross-axis, while justify properties work on the main-axis.
 
 5. Explain why git is valuable to a team of developers.
 
