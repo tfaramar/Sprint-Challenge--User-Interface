@@ -216,27 +216,27 @@ footer nav a {
 }
 
 .about-item {
-	height: 420px;
+	height: 430px;
 	width: 46%;
 	text-align: left;
 	border-bottom: 1px dashed black;
 	box-sizing: border-box;
-	margin: 30px 10px 0px 10px;
+	margin: 40px 15px 10px 15px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	align-content: space-between;
 }
 
 .middle-row {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .middle-section {
 	display: flex;
 	flex-direction: column;
+	align-content: space-between;
 }
 
 .learn-button {
@@ -247,6 +247,11 @@ footer nav a {
 	font-size: 16px;
 	border: 2px solid black;
 	border-radius: 8px;
+}
+
+.learn-button:hover {
+	background: darkorchid;
+	color: white;
 }
 
 .bottom-section {
